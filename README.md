@@ -1,11 +1,11 @@
-🤖 NLP Chatbot using Python & Machine Learning
+**🤖 NLP Chatbot using Python & Machine Learning**
 
 An intelligent intent-based chatbot built using Python, NLP, and Machine Learning.
 The chatbot classifies user input into intents using TF-IDF + Logistic Regression and responds with confidence-based logic.
 
 This project demonstrates real-world NLP pipeline design, model training, inference, and clean project structuring.
 
-🚀 Features
+*🚀 Features*
 
 Intent classification using Machine Learning
 
@@ -21,7 +21,7 @@ Trained model persistence (.pkl)
 
 Easy to extend with new intents
 
-🧠 How It Works (Pipeline)
+**🧠 How It Works (Pipeline)**
 User Input
    ↓
 TF-IDF Vectorization
@@ -44,7 +44,7 @@ Joblib – model persistence
 
 Git & GitHub – version control
 
-📁 Project Structure
+*📁 Project Structure*
 AI/chatbot/
 ├── data/
 │   └── intents.json
@@ -58,7 +58,7 @@ AI/chatbot/
 ├── .gitignore
 └── main.py
 
-⚙️ Setup & Installation
+*⚙️ Setup & Installation*
 1️⃣ Clone the repository
 git clone https://github.com/Venkateshwaran-0a7i/nlp-chatbot-python.git
 cd nlp-chatbot-python/AI/chatbot
@@ -76,7 +76,7 @@ nltk.download("punkt")
 nltk.download("punkt_tab")
 nltk.download("stopwords")
 
-🧪 Train the Model
+*🧪 Train the Model*
 python src/train_model.py
 
 
@@ -108,7 +108,7 @@ Implemented confidence-based inference
 
 Managed clean Git version control
 
-📌 Future Improvements
+**📌 Future Improvements**
 
 Data augmentation for higher accuracy
 
